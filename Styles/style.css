@@ -6,23 +6,33 @@
 }
 /* shared styles */
 .btn{
-    color: rgb(0, 106, 80);
-    font-family: Fira Sans;
-    padding: 15px 30px;
     border-radius: 8px;
-    box-sizing: border-box;
-    border: 1px solid rgb(0, 106, 80);
-
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-
-/* nav */
+body{
+    background: rgb(245, 245, 245);
+    max-width: 1640px;
+    padding: 0px 160px;
+}
+/* header styles */
+header{
+    background: rgb(245, 245, 245);
+}
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: rgb(245, 245, 245);
-    /* margin: 0px 942px; */
+    margin-bottom: 20px;
+   
+    
 }
 nav h2{
     color: rgba(14, 14, 14, 1);
@@ -40,9 +50,136 @@ nav button{
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+}
+/* main styles */
+
+#hero1{
+    margin-bottom:  80px;
+    
 }
 
-/* footer */
+main{
+    
+    
+    margin: 0px 160px;
+}
+section{
+    
+    
+    
+}
+
+.hero{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+    
+    
+    
+}
+.hero-content{
+    max-width: 622px;
+    padding: 117px 64px 117px 60px;
+    
+}
+.hero-image{
+    max-width: 474px;
+    margin-left: 64px;
+}
+.hero-content h3{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.hero-content h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.hero-content a button{
+    padding: 17px 34px;
+}
+
+
+/* hero2 */
+
+#hero2{
+    margin-bottom: 80px;
+}
+.pillars{
+
+}
+.pillars h2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+    
+}
+.pillars-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.content{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 302px;
+    height: 244px;
+    margin-right: 17px;
+}
+.content img{
+    height: 64px;
+    width: 64px;
+    padding: 24px 214px 0px 24px;
+}
+.content1{
+    padding: 24px;
+}
+.content1 .subtitle{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.content1 .description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* footer styles */
 footer section{
     
     display: flex;
@@ -83,3 +220,33 @@ footer section{
     margin-right: 23px;
 }
 
+/* hero3 */
+
+#hero3{
+
+}
+.vision{
+
+}
+.future{
+    margin-bottom: 32px;
+}
+.future h2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.future p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left; 
+}
