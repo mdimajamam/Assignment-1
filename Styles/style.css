@@ -13,8 +13,6 @@
     box-sizing: border-box;
     border: 1px solid rgb(0, 106, 80);
 
-
-
 }
 
 /* nav */
@@ -23,7 +21,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+    background: rgb(245, 245, 245);
     /* margin: 0px 942px; */
 }
 nav h2{
@@ -42,5 +40,46 @@ nav button{
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/* footer */
+footer section{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 160px;
+}
+.bangladesh{
+    padding: 50px 160px 50px 160px;
+}
+.desh{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bangladesh hr{
+    width: 1122px;
+    padding: 0px 239px;
+    margin-bottom: 32px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.icon a img{
+    margin-right: 23px;
 }
 
