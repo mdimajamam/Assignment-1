@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+/* shared styles */
+.btn{
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+
+
+
+}
+
+/* nav */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    /* margin: 0px 942px; */
+}
+nav h2{
+    color: rgba(14, 14, 14, 1);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    padding: 24px 160px 24px 160px;
+    margin-right: 942px;
+}
+nav button{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
