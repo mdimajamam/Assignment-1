@@ -20,6 +20,7 @@ body{
     background: rgb(245, 245, 245);
     max-width: 1640px;
     padding: 0px 160px;
+
 }
 /* header styles */
 header{
@@ -223,7 +224,7 @@ footer section{
 /* hero3 */
 
 #hero3{
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 .vision{
 
@@ -393,4 +394,154 @@ footer section{
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/* hero4 */
+
+#hero4{
+    margin-bottom: 80px;
+}
+
+.Opinion h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+    
+}
+
+.Matters{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+}
+.Matters1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    height: 70px;
+    width: 1200px;
+    
+    
+}
+.Matters1 .matters111{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 896px;
+}
+.Matters1 .matters222{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.matters11{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    height: 92px;
+    padding: 36.5px 24px;
+    width: 1050px;
+}
+.Matters2{
+    display: flex;
+
+}
+.Matters2 button {
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    border-style: double;
+}
+.Matters2 button select{
+    width: 152px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px 14px;
+}
+.Matters3{
+    display: flex;
+}
+.Matters3 button{
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    border-style: double;
+}
+.Matters3 button select{
+    width: 152px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px 14px;
+}
+.Matters4{
+    display: flex;
+}
+.Matters4 button{
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    border-style: double;
+    
+}
+.Matters4 button select{
+    width: 152px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px 14px;
 }
