@@ -16,64 +16,65 @@
     letter-spacing: 0%;
     text-align: left;
 }
-body{
+
+body header{
     background: rgb(245, 245, 245);
-    max-width: 1640px;
+    max-width: 1620px;
     padding: 0px 160px;
 
 }
-/* header styles */
-header{
+body main{
     background: rgb(245, 245, 245);
-}
+    max-width: 1620px;
+    padding: 0px 160px;
 
+}
+/* nav styles */
 nav{
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-   
-    
+    align-items: center;   
 }
 nav h2{
-    color: rgba(14, 14, 14, 1);
-    font-family: "Fira Sans", sans-serif;
+    width: 300px;
+    height: 38px;
+    margin-right: 955px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
+    letter-spacing: 0%;
     text-align: left;
-    padding: 24px 160px 24px 160px;
-    margin-right: 942px;
 }
 nav button{
+    width: 116px;
+    height: 52px;
+    text-align: center ;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0%;
-    text-align: left;
-    color: rgb(0, 106, 80);
-    font-family: Fira Sans;
-    padding: 15px 30px;
-    border-radius: 8px;
     box-sizing: border-box;
-    border: 1px solid rgb(0, 106, 80);
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+
+    
 }
 /* main styles */
 
 #hero1{
     margin-bottom:  80px;
-    
+    margin-top:  20px;
 }
 
 main{
-    
-    
     margin: 0px 160px;
 }
 section{
-    
-    
-    
+  
 }
 
 .hero{
@@ -83,9 +84,7 @@ section{
     justify-content: center;
     align-items: center;
     height: 560px;
-    
-    
-    
+  
 }
 .hero-content{
     max-width: 622px;
@@ -114,9 +113,11 @@ section{
     line-height: 67px;
     letter-spacing: 0%;
     text-align: left;
+    margin-bottom: 24px;
 }
 .hero-content a button{
     padding: 17px 34px;
+    border: none;
 }
 
 
@@ -181,14 +182,22 @@ section{
     text-align: left;
 }
 /* footer styles */
-footer section{
+footer{
+    background: rgb(255, 255, 255);
+    background-image: 100%;
     
+    
+}
+
+footer section{
+     
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 50px 160px;
 }
 .bangladesh{
+    
     padding: 50px 160px 50px 160px;
 }
 .desh{
@@ -207,7 +216,7 @@ footer section{
 }
 .bangladesh hr{
     width: 1122px;
-    padding: 0px 239px;
+    padding: 0px 200px;
     margin-bottom: 32px;
 }
 .icon{
@@ -544,4 +553,250 @@ footer section{
     letter-spacing: 0%;
     text-align: center;
     padding: 10px 14px;
+}
+/* hero5 */
+#hero5{
+    margin-bottom: 80px;
+}
+
+.Recent-content h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.Recent-content p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.Recent-content1{
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    padding: 48px;
+    margin-bottom: 24px;
+}
+.Recent-content1 img{
+    margin-right: 32px;
+}
+.Bangladesh{
+    width: 744px;
+}
+.Bangladesh h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.Bangladesh img{
+    margin-bottom: 12px;
+}
+.Bangladesh div{
+    display: flex;
+    margin-bottom: 12px;
+}
+.Bangladesh div .date{
+    Date: 05/01/2025;
+    margin-right: 12px;
+}
+.Bangladesh div .time{
+    Time: 10.25 PM
+}
+.Bangladesh p{
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.Bangladesh button{
+    width: 139px;
+    height: 48px;
+    text-align: center;
+}
+
+/* hero6 */
+
+#hero6{
+    margin-bottom: 80px;
+}
+.donate{
+    width: 1280px;
+    
+}
+.donate h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.donate p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.donate1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.donate1 div{
+    width: 240px;
+    height: 128px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate1 .done{
+    width: 240px;
+    height: 128px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.today{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.today input{
+    width: 1032px;
+    height: 64px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 20px 422px;
+    border: none;
+    margin-bottom: 32px;
+}
+.donate button{
+    width: 151px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 564px;
+    margin-right: 564px;
+}
+
+/* hero7 */
+#hero7{
+
+}
+.technology{
+
+}
+.growth{
+    
+
+}
+.growth div{
+    margin-bottom: 24px;
+}
+.growth div h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.growth div p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.growth1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.growth div div input{
+    width: 157px;
+    height: 19px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 18px 403px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
+.growth1 div button{
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    padding: 16.5px 34px;
+}
+.growth p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
 }
